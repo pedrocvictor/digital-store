@@ -1,24 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Store</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <a href="/">
-            <img src="assets/logo.svg" alt="digitaal store logo">
-            <span>Digtial Store</span>
-        </a>
+      <a href="/">
+        <img src="assets/logo.svg" alt="digitaal store logo" />
+        <span>Digtial Store</span>
+      </a>
     </header>
     <main>
-        <form bindsubmit="">
-            <h1>Crie sua conta</h1>
-            <p>Já possui uma conta? Entre <a href="#">aqui</a>.</p>
-        </form>
+      <form bindsubmit="">
+        <div class="title-box">
+          <h1>Crie sua conta</h1>
+          <p>Já possui uma conta? Entre <a href="#">aqui</a>.</p>
+        </div>
+
+        <div class="input-box">
+          <label for="">Email *</label>
+          <input type="email" placeholder="Insira seu email" />
+        </div>
+
+        <button>Criar conta</button>
+
+        <div class="else-box">
+          <small>Ou faça login com</small>
+          <div class="icon-box">
+            <img src="./assets/email.svg" alt="" />
+            <img src="./assets/facebook.svg" alt="" />
+          </div>
+        </div>
+      </form>
     </main>
-    <footer></footer>
-</body>
+    <footer>
+      <div class="top-footer">
+        <div class="social">
+          <a href="#">
+            <img src="./assets/logo-white.svg" alt="digital store logo" />
+            <span>Digital Store</span>
+          </a>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore.
+          </p>
+
+          <ul>
+            <li>
+              <a href="#"><img src="./assets/facebook-white.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/instagram.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/twitter.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="more">
+         <div class="information">
+            <h2>Informações</h2>
+            <ul>
+              <li><a href="">Sobre Drip Store</a></li>
+              <li><a href="">Segurança</a></li>
+              <li><a href="">Wishlist</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Trabalhe conosco</a></li>
+              <li><a href="">Meus Pedidos</a></li>
+            </ul>
+          </div>
+          <div class="category">
+            <h2>Categoria</h2>
+            <li><a href="">Sobre Drip Store</a></li>
+            <li><a href="">Segurança</a></li>
+            <li><a href="">Wishlist</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Trabalhe conosco</a></li>
+            <li><a href="">Meus Pedidos</a></li>
+          </div>
+        </div>
+         <div class="address">
+          <h2>Contato</h2>
+          <address>
+            Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE,
+            60150-161
+          </address>
+          <span>(85) 3051-3411</span>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <hr />
+        <small>&copy; 2026. Pedro Victor.</small>
+      </div>
+    </footer>
+  </body>
 </html>
